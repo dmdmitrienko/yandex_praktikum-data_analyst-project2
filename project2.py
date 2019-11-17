@@ -18,7 +18,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import math
 
-df = pd.read_csv('/datasets/real_estate_data.csv', delimiter='\t')
+df = pd.read_csv('datasets/real_estate_data.csv', delimiter='\t')
 
 print (df.info())
 print (df.head(1))
